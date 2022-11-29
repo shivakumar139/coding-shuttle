@@ -23,7 +23,7 @@
 
 html{
     font-size: 62.5%;
-    width: 100vw;
+    overflow-x: hidden;
 }
 body{
     font-family: 'Rubik', sans-serif;
@@ -816,8 +816,10 @@ footer .copyright{
       
         box-shadow: var(--shadow);
  
-        background-color: #FFF0; 
+        background-color: #FFFFFF00; 
         backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+
     }
     .menu{
         flex-direction: column;
